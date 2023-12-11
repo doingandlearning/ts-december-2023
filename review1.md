@@ -7,7 +7,7 @@ Tackle this however you like, the point is for you to explore using the tools
 
 You will load up some data into a type-safe structure, then (optionaly) sort the data and show slices of it
 
-You could manually transpile your .ts to js with tsc, or run directly with ts-node
+You could manually transpile your .ts to js with tsc, or run directly with ts-node or tsx
 
 You could make programatic choices (run in node) or ask the user in a web page (in a browser).
 
