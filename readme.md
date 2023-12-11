@@ -35,11 +35,13 @@ Unit 8: DOM Manipulation - using TS to add components with JS to manipulate the 
 
 Unit 9: Functional Programming - an exploration on what functional programming is, why it's a helpful paradigm and some practice
 
-Unit 10: React - exploring a react project and seeing how TS is used, using generics in the context of useState and a few other hooks
+Unit 10: React - exploring a React project and seeing how TS is used, using generics in the context of useState and a few other hooks
 
 Unit 11 - Builtins - exploring some of the builtin types and the conditional types
 
 Unit 12 - Creating types from others - string literals, keyin, keyof, record
 
-Unit 13 - Observables - Exploring rxjs and observables
+Unit 13 - Testing - What are the testing solutions in TS?
+
+Unit 14 - Observables - Exploring rxjs and observables
  
