@@ -104,3 +104,13 @@ const newerArray = structuredClone(newArray); // assignment by reference  // [1,
 newerArray[0].location = "Switzerland";
 console.log(newArray);
 console.log(newerArray);
+
+function addAll(...nums: number[]) {
+  return nums.reduce((a, c) => a + c, 0);
+}
+
+// ... ...
+
+console.log(addAll(1, 2, 3, 4, 5, 6, 5, 3, 3, 4, 12, 2345, 245, 25, 235, 235));
+
+console.log(Number.MAX_SAFE_INTEGER);
