@@ -1,4 +1,4 @@
-<!--  -->**Exercise: Node.js Module System with TypeScript**
+<!--  -->**Exercise: Module System with TypeScript**
 
 **Objective**: To understand how the module system works in Node.js with TypeScript. By the end of this exercise, you should be able to set up a TypeScript project, create functions in one module, and import them into another module to use them.
 
