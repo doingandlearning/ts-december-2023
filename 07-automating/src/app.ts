@@ -1,3 +1,5 @@
+import { Photo } from "./types";
+
 async function fetchPhotos<T>(): Promise<T[]> {
   const API = "https://jsonplaceholder.typicode.com/photos";
   try {
@@ -11,14 +13,6 @@ async function fetchPhotos<T>(): Promise<T[]> {
     console.log("Error", error);
     return [];
   }
-}
-
-interface Photo {
-  albumId: number;
-  id: number;
-  title: string;
-  url: string;
-  thumbnailUrl: string;
 }
 
 const contentElement: HTMLElement | null = document.getElementById("content");
