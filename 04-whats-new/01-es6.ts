@@ -47,9 +47,9 @@ function whodis() {
 
 whodis();
 
-const whodisArrow = () => {
+const whodisArrow = (() => {
   console.log(this);
-};
+}).bind(this);
 
 whodisArrow();
 
