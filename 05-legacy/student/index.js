@@ -45,3 +45,4 @@ console.log(listUsers());
 console.log(deleteUser(1));
 console.log(listUsers());
 console.log(findUser("jane_smith"));
+console.log(findUser("john_doe"));
