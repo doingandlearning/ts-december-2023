@@ -1,5 +1,21 @@
 var PI = 3.14;
 
+// Types as Shapes
+// Shape => Circle(radius, type, area), Square(width, type, area),
+// Triangle(base,height,type, area)
+// , Rectangle(length, width, type, area)
+// Properties
+
+interface Shape {
+  area?: number;
+  type: "circle" | "square" | "rightTriangle" | "rectangle";
+}
+
+interface Circle extends Shape {
+  radius: number;
+  type: "circle";
+}
+
 function getCircleArea(radius) {
   return radius * radius * PI;
 }
@@ -16,7 +32,7 @@ function getRightTriangleArea(base, height) {
   return (base * height) / 2;
 }
 
-function getArea(shape) {
+export function getArea(shape) {
   switch (shape.type) {
     case "circle":
       shape.area = getCircleArea(shape.radius);
@@ -32,19 +48,3 @@ function getArea(shape) {
       break;
   }
 }
-
-var circle = { type: "circle", radius: 4 };
-getArea(circle);
-console.log(circle);
-
-var rectangle = { type: "rectangle", length: 7, width: 4 };
-getArea(rectangle);
-console.log(rectangle);
-
-var square = { type: "square", width: 5 };
-getArea(square);
-console.log(square);
-
-var rightTriangle = { type: "rightTriangle", base: 9, height: 4 };
-getArea(rightTriangle);
-console.log(rightTriangle);
