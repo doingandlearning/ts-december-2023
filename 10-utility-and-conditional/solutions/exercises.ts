@@ -24,6 +24,17 @@ type RequiredTaskFields = {
   assignedTo: NonNullable<User<UserRole>>;
 };
 
+// Or type
+
+type RequiredTaskFieldsB = Required<Task>;
+
+// Or
+
+type Merged = Task & {
+  dueDate: NonNullable<Date>;
+  assignedTo: NonNullable<User<UserRole>>;
+};
+
 function fetchTaskDetails(): Task {
   // ...implementation...
   const john: User<"admin"> = { name: "John Doe", role: "admin" };
