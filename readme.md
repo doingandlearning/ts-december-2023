@@ -4,18 +4,17 @@
 
 - Miro Board: https://miro.com/app/board/uXjVNFepXDM=/?share_link_id=901212232137
 - Feedback form: https://frameworktraining.typeform.com/to/jWETqYJE
-
-# Timings
+So it's going on I did hear a bar there and been quiet while I was on my own. We'll see how you get on and we got one hour to go and are you still contriving everything I Sorry I only noticed because I only started happening when I started talking back at you. Any hints let me know I can do it dictation keyboard sorry everyone this is not what you want to spend time doing. Turn off dictation okay cool so Isay you are brilliant so what # Timings
 
 - 9:30-11 Session 1
 - 11-11.15 Coffee
 - 11.15-12.45 Session 2
-- 12.45-1.45 Lunch
+- 12.45-1.45 LunchSorry I only noticed because I only started happening when I started talking back at you any hints let me know I can do it
 - 1.45-3.15 Session 3
 - 3.15-3.30 Tea
-- 3.30-4.30 Session 4
+- 3.30-4.30 S
 
-# Outline
+
 
 Unit 1: TS Intro - exploring types, interfaces dicts, map and guard types.
 
